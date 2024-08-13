@@ -2,7 +2,7 @@
 curlpp template setup
 
 ## Installing library
-Since curlpp is wrapper around it is required to have curl installed first. 
+Since curlpp is wrapper around curl, it is required to have curl installed first. 
 Also nlohmann/json is used for parsing json
 
 ### Installing curl library
