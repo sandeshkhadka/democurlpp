@@ -5,6 +5,20 @@ curlpp template setup
 Since curlpp is wrapper around curl, it is required to have curl installed first. 
 Also nlohmann/json is used for parsing json
 
+#### Library installation structure
+expected library installation strucutre in this project
+---democurlpp
+    |__ src
+    |__ libs
+        |__ curl
+            |__ include
+            |__ lib
+        |__ curlpp
+            |__ include
+            |__ lib64
+        |__ nlohmann
+            |__ json.hpp
+
 ### Installing curl library
 1. Download the source file from curl's [download page](https://curl.se/download.html).
 2. use the `configure` script provided within the curl source files to configure with the path you want within
